@@ -1,7 +1,7 @@
 <?php
 
 $username = $_POST['user'];
-$password = $_POST['pass'];
+$password = $_POST['password'];
 
 #connect to database
 

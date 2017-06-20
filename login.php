@@ -15,7 +15,7 @@
                 </p>
                 <p>
                     <label>Password:</label>
-                    <input type="password" id="pass" name="pass" />
+                    <input type="password" id="pass" name="password" />
                 </p>
                 <p>
                     <input type="submit" id="btn" value="login" name="submit" />
