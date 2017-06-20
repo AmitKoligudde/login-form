@@ -18,13 +18,8 @@
                     <input type="password" id="pass" name="pass" />
                 </p>
                 <p>
-
-                    <input type="submit" id="btn" value="login" />
+                    <input type="submit" id="btn" value="login" name="submit" />
                 </p>
-
-
-
             </form>
-
     </body>
 </html>

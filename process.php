@@ -8,7 +8,6 @@ $password = $_POST['pass'];
 $conn = mysql_connect("localhost", "root", "");
 $db = mysql_select_db("login");
 
-$sql="INSERT INTO user(username,password) values('$username','$password')";
 
 $result = mysql_query("select * from user where username='$username' and password='$password'")
         or die("Failed to query database" . mysql_error());
